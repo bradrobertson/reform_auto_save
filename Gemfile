@@ -36,3 +36,4 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'reform'
+gem 'minitest-rails'

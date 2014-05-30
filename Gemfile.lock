@@ -44,6 +44,12 @@ GEM
     mime-types (1.25.1)
     mini_portile (0.6.0)
     minitest (4.7.5)
+    minitest-rails (1.0.1)
+      minitest (~> 4.7)
+      minitest-test (~> 1.0)
+      railties (>= 3.0, < 4.1)
+    minitest-test (1.1.0)
+      minitest (~> 4.0)
     multi_json (1.10.1)
     nokogiri (1.6.2.1)
       mini_portile (= 0.6.0)
@@ -112,6 +118,7 @@ PLATFORMS
 
 DEPENDENCIES
   jquery-rails
+  minitest-rails
   rails (= 4.0.4)
   reform
   sass-rails (~> 4.0.2)
